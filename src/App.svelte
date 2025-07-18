@@ -28,6 +28,13 @@
   let bio =
     "i'm a rising college freshman majoring in computer science & public affairs. i grew up in the sf bay area, but will be moving to new england for college!";
   let programs = ["web dev '21", "data science '22", "ai/ml '23", "data storytelling challenge '25"];
+
+"scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "deploy": "npm run build && gh-pages -d dist",
+    "preview": "vite preview"
+  }
 </script>
 
 <div class="container">
