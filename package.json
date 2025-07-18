@@ -3,10 +3,11 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://joy-zou.github.io/svelte-about-me",
   "scripts": {
     "dev": "vite",
-    "preview": "vite preview"
-    "predeploy": "npm run build",
+    "preview": "vite preview",
+    "pre deploy": "npm run build",
     "deploy": "gh-pages -b main -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -17,5 +18,5 @@
     "svelte": "^5.28.1",
     "vite": "^6.3.5"
   }
-  "homepage": "https://joy-zou.github.io/svelte-about-me"
+  
 }
